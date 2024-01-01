@@ -1,0 +1,102 @@
+:root {
+    --cor-de-fundo:#353535;
+    --cor-fonte-principal:#FFF;
+    --cor-fonte-secundaria:#FFB84D;
+    --cor-fonte-terciaria:#ff4d4d;
+    --cor-font-cinza:#BCBCBC;
+    --font-principal:'Roboto', sans-serif;
+    --font-numero:'Megrim', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte-principal);
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.cabecalho ul {
+    display: flex;
+    column-gap: 17px;
+}
+
+a{
+    color: var(--cor-fonte-principal);
+    text-decoration: none;
+}
+
+.texto-ativo a:hover{
+    color: var(--cor-fonte-secundaria);
+}
+
+/* PRINCIPAL */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    
+}
+
+.titulo {
+    font-size: 100px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.subtitulo span {
+    color: var(--cor-fonte-secundaria);
+}
+
+.cronometro {
+    width: 582.61px;
+    font-size: 150px;
+    font-family: var(--font-numero);
+    padding-bottom: 30px;
+}
+
+.botoes button{
+    font-family: var(--font-principal);
+    color: var(--cor-fonte-principal);
+    background-color: var(--cor-de-fundo);
+    font-size: 50px;
+    border-radius: 22px;
+    border: 1px solid var(--cor-fonte-principal);
+    width: 280px;
+    height: 100px;
+    margin:5px;
+}
+
+.botoesClick button:hover {
+    background-color: var(--cor-fonte-secundaria);
+    cursor: pointer;
+}
+
+.botoesClick button:nth-child(3):hover {
+    background-color: var(--cor-fonte-terciaria);
+}
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    color: var(--cor-font-cinza);
+    margin-top: 150px;
+}
+

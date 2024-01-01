@@ -1,0 +1,41 @@
+@media ((min-width: 375px) and (max-width: 624px)) {
+    
+    .titulo {
+        font-size: 60px;
+    }
+    
+    .subtitulo {
+        font-size: 45px;
+    }
+    
+    .cronometro {
+        width: 311px;
+        font-size: 80px;
+    }
+    
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .botoes button{
+        font-size: 25px;
+        width: 250px;
+        height: 50px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+}
+
+@media ((min-width: 625px) and (max-width: 880px)) {
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes button {
+        width: 500px;
+    }
+}
