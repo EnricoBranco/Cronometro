@@ -83,12 +83,12 @@ main {
     margin:5px;
 }
 
-.botoesClick button:hover {
+.botoes button:hover {
     background-color: var(--cor-fonte-secundaria);
     cursor: pointer;
 }
 
-.botoesClick button:nth-child(3):hover {
+.botoes button:nth-child(3):hover {
     background-color: var(--cor-fonte-terciaria);
 }
 
