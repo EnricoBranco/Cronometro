@@ -1,11 +1,10 @@
 :root {
-    --cor-de-fundo:#353535;
+    --cor-de-fundo:#282828;
     --cor-fonte-principal:#FFF;
-    --cor-fonte-secundaria:#FFB84D;
+    --cor-fonte-secundaria:#4F53BA;
     --cor-fonte-terciaria:#ff4d4d;
     --cor-font-cinza:#BCBCBC;
     --font-principal:'Roboto', sans-serif;
-    --font-numero:'Megrim', sans-serif;
 }
 
 body {
@@ -67,7 +66,7 @@ main {
 .cronometro {
     width: 582.61px;
     font-size: 150px;
-    font-family: var(--font-numero);
+    font-family: var(--font-principal);
     padding-bottom: 30px;
 }
 
